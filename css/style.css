@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    padding:0;
+   background-image:url(../images/5.jpg);
+    background-size:contain;
+    
+   
+    
+}
+.box-img{
+    width:200px;
+    height: 200px;
+    border-radius:50%;
+    
+}
+.box{
+    width: 450px;
+    background-color: rgba(0,0,0,0.5);
+    
+    padding:40px;
+    text-align:center;
+    margin:auto;
+    margin-top: 5%;
+    color:whitesmoke;
+    font-family: monospace;    
+}
+.box h1{
+    font-size:40px;
+    letter-spacing: 1px;
+    font-weight: 10;
+}
+.box h3{
+    font-size:20px;
+    letter-spacing: 3px;
+    font-weight: 10;
+}
+.box p{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display:inline-flex;
+    margin: 6px;
+    list-style: none;
+    
+}
+.box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    transition: all ease-in-out 250ms;
+}   
+.box li a:hover{
+    color: #9caeaf;
+}
+.gmail{
+    color: whitesmoke;
+}
